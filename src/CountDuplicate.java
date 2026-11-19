@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class CountDuplicate {
     public static void main(String[] args) {
-        int[] array = {4, 2, 7, 4, 9, 2, 4, 1};
+        int[] array = {2, 5, 1, 3, 4, 2, 1, 3};
 
         int result = countElement(array);
         System.out.println("Общее число повторяющихся элементов: " + result); // Выведет: 5
